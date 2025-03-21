@@ -54,10 +54,9 @@ local civic = Sedan:new("Civic", "Honda", 120000.00)
 local tracker = SUV:new("Tracker", "Chevrolet", 145000.00)
 
 -- Exibindo informações antes do desconto
-print(civic:info())    -- [SEDAN] Nome: Civic | Marca: Honda | Preço: R$ 120000.00
-print(tracker:info())  -- [SUV] Nome: Tracker | Marca: Chevrolet | Preço: R$ 145000.00
+print(civic:info())   -- [SEDAN] Nome: Civic | Marca: Honda | Preço: R$ 120000.00
+print(tracker:info()) -- [SUV] Nome: Tracker | Marca: Chevrolet | Preço: R$ 145000.00
 
 -- Aplicando descontos
-print(civic:desconto(10))    -- Novo preço com 10.0% de desconto: R$ 108000.00
-print(tracker:desconto(15))  -- Novo preço com 15.0% de desconto: R$ 123250.00
-
+print(civic:desconto(10))   -- Novo preço com 10.0% de desconto: R$ 108000.00
+print(tracker:desconto(15)) -- Novo preço com 15.0% de desconto: R$ 123250.00
